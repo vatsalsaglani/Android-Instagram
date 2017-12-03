@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.thevatsal.instagramclone.PostActivity">
+
+    <ImageButton
+        android:layout_width="390dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:layout_height="300dp"
+        android:paddingBottom="20dp"
+        android:background="@drawable/image"
+        android:onClick="imageButtonClicked"
+        android:id="@+id/imageButton"
+
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:hint="Enter Name:"
+        android:background="@drawable/editshape"
+        android:layout_marginTop="15dp"
+        android:id="@+id/editName"
+        />
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:hint="Enter Description:"
+        android:background="@drawable/editshape"
+        android:id="@+id/editDesc"
+        />
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Done"
+        android:onClick="submitButtonClicked"
+
+
+
+        />
+
+</LinearLayout>
